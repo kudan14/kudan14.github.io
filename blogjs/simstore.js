@@ -744,11 +744,4 @@ function get_url_parameter(_0xbb1f66, _0x4a9380) {
         return '';
     return decodeURIComponent(_0x63cf43[0x2][_0x3ece66(0xdf)](/\+/g, '\x20'));
 }
-const arrayElement2 = document.querySelectorAll('.field_loaded');
 
-for(let i = 0; i < arrayElement2.length; i++)
-{
- const errorMessage = document.createElement('span');
- errorMessage.textContent = "invalid input";
- arrayElement2[i].appendChild(errorMessage);
-}
